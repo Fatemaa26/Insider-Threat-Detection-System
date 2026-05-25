@@ -41,7 +41,3 @@ The dataset used in this project is the public **Insider Threat Detection Datase
 > 
 > * If you are adapting this code for **Security, Fraud, or Intrusion Detection**, leave the outlier handling as it is (the `StandardScaler` and `StackingClassifier` naturally handle them safely).
 > * If you are adapting this code for **Standard Regression/Classification tasks** (e.g., predicting house prices), you should implement an outlier-removal step (such as IQR trimming or Isolation Forest) prior to the scaling step.
-
-## 👥 Project Team
-* **Developers:** Jana Mohamed, Ganna Mohamed, and Abd Al-Hamid.
-* **Supervisors:** Dr. Heba Zaki and Dr. Yasmeen Abdelmohsen.
