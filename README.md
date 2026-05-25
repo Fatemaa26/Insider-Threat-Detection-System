@@ -40,4 +40,4 @@ The dataset used in this project is the public **Insider Threat Detection Datase
 > ⚠️ **Important Note on Outliers:** > This pipeline deliberately omits an outlier-removal step because it is optimized for **Cybersecurity Anomaly Detection**, where extreme behavioral spikes (e.g., massive off-hour data transfers) represent actual malicious threats rather than data errors. Deleting outliers would erase the threat signatures. 
 > 
 > * If you are adapting this code for **Security, Fraud, or Intrusion Detection**, leave the outlier handling as it is (the `StandardScaler` and `StackingClassifier` naturally handle them safely).
-> * If you are adapting this code for **Standard Regression/Classification tasks** (e.g., predicting house prices), you should implement an outlier-removal step (such as IQR trimming or Isolation Forest) prior to the scaling step.
+> * If you are adapting this code for **Standard Regression/Classification tasks** (e.g., predicting house prices), you should implement an outlier-removal step (such as IQR trimming or Isolation Forest) prior to the scaling step .
